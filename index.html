@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded HTML Map</title>
+  <style>
+    /* Add CSS rules to ensure the iframe takes up the full height of the window */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    iframe {
+        display: block;       /* Remove any default margins */
+        border: none;         /* Assuming you want no border */
+        width: 100%;          /* Set width to 100% of the containing element */
+        height: 100%;         /* Set height to 100% of the containing element */
+        position: absolute;   /* Position it in a way that it can take the full space */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Use an iframe to embed your HTML file -->
+<iframe src="Broadway_Map.html"></iframe>
+
+</body>
+</html>
